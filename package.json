@@ -1,0 +1,26 @@
+{
+  "name": "appman-exam-2018",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.4",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "yarn": "^1.13.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "api": "node ./src/server.js",
+    "eject": "react-scripts eject"
+  },
+  "description": "We want you to build a web application with the following requirements:",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
